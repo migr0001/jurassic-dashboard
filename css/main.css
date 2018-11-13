@@ -4,6 +4,39 @@ html {
   font-family: "Ubuntu Mono", monospace;
 }
 
+menu {
+  padding-left: 0;
+}
+
+img {
+  border-right: solid 1px #6feff9;
+}
+
+.border {
+  border-bottom: solid 1px #6feff9;
+}
+
+li {
+  list-style-type: none;
+}
+
 i {
-  fill: #6feff9;
+  color: #6feff9;
+}
+
+#dash {
+  animation: dash .5s ease infinite;
+}
+
+@keyframes dash {
+
+  50% {
+    opacity: .5;
+    color: #ffd31d;
+  }
+
+  100% {
+    color: #f62e52;
+  }
+
 }
